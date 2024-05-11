@@ -1,0 +1,42 @@
+.navigation-links {
+  text-align: center;
+}
+
+body {
+  background-color: lightskyblue;
+}
+.grid-4-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50px;
+  height: 50px;
+}
+
+p {
+  padding: 10px;
+  border-top: 5px;
+  margin: 10px;
+  background: #f5f2fe;
+  border-radius: 6px;
+  line-height: 2;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+  padding-top: 20px;
+  border-top: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.email-link {
+  padding-top: 20px;
+  border-top: 20px;
+  margin: 20px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
