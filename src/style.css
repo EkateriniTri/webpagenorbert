@@ -5,10 +5,22 @@
 body {
   background-color: lightskyblue;
 }
-.grid-4-columns {
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 50px;
-  height: 50px;
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-gap: 20px;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.5);
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
 }
 
 p {
@@ -37,6 +49,15 @@ p {
   margin: 20px;
   text-align: center;
 }
+
+.viennariver-picture {
+  width: 100%;
+  border-radius: 10px;
+}
+
 footer {
   text-align: center;
+  margin: 10px 0;
+  font-size: 10px;
+  font-style: italic;
 }
