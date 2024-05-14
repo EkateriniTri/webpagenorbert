@@ -5,10 +5,19 @@
 body {
   background-color: lightskyblue;
 }
+h1 {
+  line-height: 1.5;
+}
+
+.hero {
+  margin-top: 10px;
+}
+h2 {
+  margin: 0;
+}
 
 .photo-gallery {
   display: grid;
-  grid-template-columns: 500px 500px;
   grid-gap: 20px;
 }
 
@@ -60,4 +69,33 @@ footer {
   margin: 10px 0;
   font-size: 10px;
   font-style: italic;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 40px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .text-center {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 10px;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  .content {
+    text-align: center;
+    padding: 0 10px;
+  }
 }
