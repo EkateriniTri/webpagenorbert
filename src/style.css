@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: lightskyblue;
+  background-color: lightblue;
 }
 h1 {
   line-height: 1.5;
@@ -46,6 +46,9 @@ p {
   margin: 20px;
   text-align: center;
 }
+.social-links {
+  font-size: 30px;
+}
 
 .viennariver-picture {
   width: 100%;
@@ -54,16 +57,9 @@ p {
 
 footer {
   text-align: center;
-  margin: 10px 0;
+  background-color: none;
   font-size: 10px;
   font-style: italic;
-}
-
-footer .social-links a {
-  margin: 0 20px;
-  font-size: 40px;
-  border-radius: 50%;
-  transition: all 100ms ease-in-out;
 }
 
 footer .text-center {
